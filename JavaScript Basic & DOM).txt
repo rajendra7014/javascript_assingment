@@ -1,0 +1,128 @@
+• What is JavaScript? 
+
+Ans=> JavaScript is a scripting language that enables you to create dynamically updating content,
+ control multimedia, animate images, and pretty much everything else.
+
+• What is the use of isNaN function? 
+
+Ans=> isNaN() is a function property of the global object. For number values, 
+isNaN() tests if the number is the value NaN . When the argument to the isNaN() function is not of type Number, 
+the value is first coerced to a number,
+ and the resulting value is then compared against NaN .
+
+
+• What is negative Infinity?
+
+Ans=>NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript
+
+
+
+• Which company developed JavaScript?
+
+Ans=>JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2
+
+
+
+• What are undeclared and undefined variables?
+
+Ans=>Undefined variable means a variable has been declared but does not have a value.
+ Undeclared variable means that the variable does not exist in the program at all.
+
+
+
+
+• Write the code for adding new elements dynamically?
+
+Ans=>document.createElement("<tagName>");  
+// Where <tagName> can be any HTML 
+// tagName like div, ul, button, etc.
+
+// newDiv element has been created
+For Eg: let newDiv = document.createElement("div");
+
+
+
+
+• What is the difference between ViewState and SessionState?
+
+
+Ans=> ViewState is to manage state at the client's end, 
+making state management easy for end-user while SessionState manages state at the server's end
+
+
+• What is === operator?
+
+Ans=> The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result
+
+
+• How can the style/class of an element be changed?
+
+Ans=> Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript,
+ so in order to access the element's class, you use element
+
+
+• How to read and write a file using JavaScript?
+
+Ans=>1. file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+2.str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+3.file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+
+
+• What are all the looping structures in JavaScript?
+
+Ans=> for - loops through a block of code a number of times.
+for/in - loops through the properties of an object.
+for/of - loops through the values of an iterable object.
+while - loops through a block of code while a specified condition is true.
+
+
+
+
+
+
+• How can you convert the string of any base to an integer in JavaScript?
+
+Ans=>To convert a string to an integer parseInt(), Number(), 
+and Unary operator(+) function is used in javascript.
+ parseInt() function returns Nan( not a number) when the string doesn't contain number. 
+
+
+
+• What is the function of the delete operator?
+
+Ans=> The delete operator removes a property from an object.
+ If the property's value is an object and there are no more references to the object, 
+the object held by that property is eventually released automatically.
+
+
+
+
+
+• What are all the types of Pop up boxes available in JavaScript?
+
+Ans=> JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+
+
+• What is the use of Void (0)?
+
+Ans=>  “javascript: void(0)” is similar to void. javascript: void(0) means return undefined as a primitive value. 
+We use this to prevent any negative effects on a webpage when we insert some expression. For example, 
+in the case of URL hyperlinks.
+
+
+• How can a page be forced to load another page in JavaScript?
+
+Ans=> You can use window. location object to load another page in JavaScript.
+
+
+• What are the disadvantages of using innerHTML in JavaScript?
+
+Ans=>
+  Disadvantages of innerHTML
+Event handlers attached to any DOM element are preserved.
+Replacement is done everywhere.
+It is not possible to append innerHTML.
+Breaks the document.
+Used for Cross-site Scripting.
